@@ -5,7 +5,7 @@
 
 import Combine
 
-final public class NamedCurrentValueSubject<Output, Failure> where Failure: Error {
+public final class NamedCurrentValueSubject<Output, Failure> where Failure: Error {
 	public let name: String
 	private let subject: CurrentValueSubject<Output, Failure>
 
